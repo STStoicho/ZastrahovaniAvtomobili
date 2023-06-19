@@ -13,7 +13,7 @@ namespace ZastrahovaniAvtomobili
             int result = x.DataKraiNaZastrahovka.CompareTo(y.DataKraiNaZastrahovka);
             if (result == 0)
             {
-                result = y.DataKraiNaZastrahovka.CompareTo(y.DataKraiNaZastrahovka);
+                result = y.DataKraiNaZastrahovka.CompareTo(x.DataKraiNaZastrahovka);
             }
 
             return result;
